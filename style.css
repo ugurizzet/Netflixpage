@@ -7,12 +7,14 @@
 }
 
 body{
-    /* background-image: url(./img/netflix-background-image\ 1.png); */
+    background-image: url(./background_image.jpg);
+    color: white;
+    background-attachment: fixed;
 }
 
 .container{
     max-width: 1240px;
-    height: 1036px;
+    /* height: 1036px; */
     background-color: rgba(0, 0, 0, 0.3);
     margin: auto;
     margin-top: 30px;
@@ -32,4 +34,39 @@ span{
 }
 #header{
     text-align: center;
+}
+textarea{
+    resize: none;
+}
+#survey-from-container{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+
+}
+#name,
+#age,
+#dropdown,
+#feedback,
+#email{
+    width: 100%;
+}
+.input-box{
+    margin-top: 10px;
+
+}
+#form-button{
+    width: 160px;
+    height: 45px;
+    background-color: #f00;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    /* cursor: pointer; */
+}
+.form-submit{
+    margin: auto;
+    width: 160px;
+    margin-top: 15px;
 }
